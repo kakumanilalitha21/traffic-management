@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit.elements import option_menu
+from streamlit_option_menu import option_menu
 from database import fetch_user
 import pandas as pd
 import joblib
