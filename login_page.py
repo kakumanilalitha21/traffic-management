@@ -24,7 +24,7 @@ def login_page():
     with st.form(key="login_form"):
         # Title
         col1,col2=st.columns([10,1])
-        col1.title("Login Here!!")
+        col1.title("Login")
         if col2.form_submit_button("🏠"):
             navigate_to_page("home")
 
